@@ -1,0 +1,13 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 120],
+  "editor.wordWrapColumn": 100,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}

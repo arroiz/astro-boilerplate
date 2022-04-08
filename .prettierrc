@@ -1,0 +1,13 @@
+{
+  "trailingComma": "none",
+  "semi": false,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.astro"],
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}

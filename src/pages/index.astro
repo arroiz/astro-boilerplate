@@ -1,0 +1,27 @@
+---
+import Counter from '../components/counter.tsx';
+
+const title = 'Astro Boilerplate';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <main
+      class="w-screen min-h-screen bg-gradient-to-r from-gray-900 to-slate-800 flex items-center flex-col justify-center gap-8"
+    >
+      <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo" />
+      <h1 class="text-4xl text-slate-200">Welcome to Astro!</h1>
+      <p class="text-xl text-slate-200">
+        This is a Astro template using: react, tailwind, typescript, eslint and prettier
+      </p>
+      <Counter count={0} client:visible />
+    </main>
+  </body>
+</html>
